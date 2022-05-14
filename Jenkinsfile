@@ -12,9 +12,8 @@ pipeline {
       
       steps {
         echo "Installing deps"
-        nodejs('Node 12') {
-           sh 'npm i'
-        }
+        sh 'npm i'
+        
       }
       
     }
